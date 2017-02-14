@@ -1,5 +1,5 @@
 {
-  "name": "my-house-monitor",
+  "name": "my-room-monitor",
   "version": "1.0.0",
   "private": false,
   "description": "Web app that uses motion detection to take a snapshot when something moves, then send message to telegram bot",
