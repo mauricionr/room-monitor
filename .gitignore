@@ -1,0 +1,12 @@
+# ignore directories
+dist/
+node_modules/
+
+# ignore file extensions
+*.log
+
+# ignore specific filenames
+.DS_Store
+.env
+Thumbs.db
+.vscode

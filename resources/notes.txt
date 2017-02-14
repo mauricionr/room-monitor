@@ -1,0 +1,8 @@
+- For dev, put .env in root folder, with these contents:
+process.env.ENVIRONMENT = 'dev';
+process.env.PORT = 3000; // do not set in prod (auto-assigned by Heroku)
+process.env.SESSION_SECRET = 'your secret string';
+process.env.TWITTER_CONSUMER_KEY = 'your twitter consumer key';
+process.env.TWITTER_CONSUMER_SECRET = 'your twitter consumer secret';
+process.env.TELEGRAM_TOKEN = 'TELEGRAM TOKEN';
+process.env.BOT_ID = BOT_ID;
